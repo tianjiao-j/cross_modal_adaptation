@@ -13,31 +13,32 @@ EVAL_DIR = "./results/" # Default save to ./results/ directory
 
 
 DATASETS = [
-    "imagenet",
-    "caltech101",
+    # "imagenet",
+    # "caltech101",
     "dtd",
-    "eurosat",
-    "fgvc_aircraft",
-    "food101",
-    "oxford_flowers",
-    "oxford_pets",
-    "stanford_cars",
-    "sun397",
-    "ucf101",
+    # "eurosat",
+    # "fgvc_aircraft",
+    # "food101",
+    # "oxford_flowers",
+    # "oxford_pets",
+    # "stanford_cars",
+    # "sun397",
+    # "ucf101",
 ]
 
 SEEDS = [
-    1,
-    2,
-    3,
+    # 1,
+    # 2,
+    # 3,
+    6
 ]
 
 SHOTS = [
     1,
-    2,
-    4,
-    8,
-    16
+    # 2,
+    # 4,
+    # 8,
+    # 16
 ]
 
 def take_average(all_seed_dict,

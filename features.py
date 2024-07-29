@@ -417,4 +417,5 @@ if __name__ == "__main__":
     #     help="if image-augmentation is not None, then specify the number of extra views.",
     # )
     args = parser.parse_args()
+    args.data_dir = '../Tip-Adapter/data/'
     main(args)
